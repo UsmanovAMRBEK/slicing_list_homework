@@ -6,4 +6,6 @@ def main(numbers):
     Returns:
         list: return answer.
     """
-    return
+    return [ numbers[i] for i in range(len(numbers)) if i%2==0]
+list1=[1, 2, 3, 4, 5]
+print(main(list1))
